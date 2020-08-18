@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: todo
@@ -17,7 +17,7 @@ spec:
       maxUnavailable: 1
   template:
     metadata:
-      creationTimestamp: null
+      # creationTimestamp: null
       labels:
         todo-app-pod: todo-cache-ingestion
     spec:
