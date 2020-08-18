@@ -23,7 +23,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: todo-view
-        image: gravitonian/todo-view:1.0
+        image: jeanflores2c/todo-view:1.0
         ports:
         - containerPort: 4200
         - containerPort: 8080

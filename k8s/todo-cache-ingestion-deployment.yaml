@@ -27,7 +27,7 @@ spec:
         image: busybox
         command: ['sh', '-c', 'until nslookup todo-rabbitmq; do echo waiting for RabbitMQ; sleep 2; done;']
       containers:
-      - image: gravitonian/todo-cache-ingestion:1.0
+      - image: jeanflores2c/todo-cache-ingestion:1.0
         name: todo-cache-ingestion
         envFrom:
           - configMapRef:

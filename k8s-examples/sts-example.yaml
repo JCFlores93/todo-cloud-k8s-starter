@@ -11,7 +11,7 @@ spec:
  accessModes:
    - ReadWriteOnce
  hostPath:
-   path: "{your-path-to}/kubedata/v0"
+   path: "/Users/admin/kubedata/v0"
  
 ---
  
@@ -28,7 +28,7 @@ spec:
  accessModes:
    - ReadWriteOnce
  hostPath:
-   path: "{your-path-to}/kubedata/v1"
+   path: "/Users/admin/kubedata/v1"
  
 ---
  
@@ -45,7 +45,7 @@ spec:
  accessModes:
    - ReadWriteOnce
  hostPath:
-   path: "{your-path-to}/kubedata/v2"
+   path: "/Users/admin/kubedata/v2"
  
 ---
  
@@ -62,7 +62,7 @@ spec:
  accessModes:
    - ReadWriteOnce
  hostPath:
-   path: "{your-path-to}/kubedata/v3"
+   path: "/Users/admin/kubedata/v3"
  
 ---
  
